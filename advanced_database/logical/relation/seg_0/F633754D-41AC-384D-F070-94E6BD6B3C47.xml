@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUCTS SUPPLIERS FK" directorySegmentName="seg_0" id="F633754D-41AC-384D-F070-94E6BD6B3C47">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:48:01 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<sourcePk>4B1A9328-CE0D-BBD6-6A71-21BBD19CDC80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>349A4690-B03D-C7BA-AA2E-2A8D063B65AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1CB5F36-65B4-4100-3784-1FC6FD0E81A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

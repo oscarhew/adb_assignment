@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="420B95A2-CCE3-D1E4-2BD2-1632EF4B5244" name="Staff">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:39:36 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StaffID" id="CDD7549F-2809-A726-D615-A4584410B4A7">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:39:45 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="1F2649D6-E18C-A11B-E6F6-A31DBDCDDF71">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:39:58 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Age" id="3BB02E94-8C1E-DB1D-82BD-310398541C7D">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:40:07 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="539668F8-2905-58EA-94D4-AAB124CD63BD">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:40:14 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="F61FD3BC-1729-D48B-D033-B7C6C88E445E">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:40:23 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CurrentPosition" id="2FF89F36-DE0C-87AD-6646-AE0AB1E893A2">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:40:37 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BaseRate" id="E3E6C470-076A-89F4-007D-FCD0AAE164CD">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:40:44 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OverTimeRate" id="E8C58D69-7505-7330-C6E3-6234D3F14BB9">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:40:57 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79B3BE8B-66C9-BFED-5606-4A7DB2F93197" name="Staff PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:39:57 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDD7549F-2809-A726-D615-A4584410B4A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

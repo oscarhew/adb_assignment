@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64D744E4-BCAA-5CE9-2D15-1A5FF837AE7F" name="CUSTOMERS">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:45:12 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="44F30F3C-3749-6BA1-D12D-7922CCA8AB81">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:45:41 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="10594B18-8A11-5973-ADF5-E7200D7425F8">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:45:16 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Age" id="00CCC038-C1F1-1B5C-B373-B6C18411847A">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:45:33 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="A7D7EC61-9627-1C4C-A770-28CD5C38D2E7">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:45:59 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="C3CA668B-6A7B-35DD-A96D-18288DF9D541">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:46:07 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContactNo" id="DD48E3B9-A915-EFC7-137F-5FCCB47D01B6">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:46:14 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BBF7ACF-FC90-C131-7AE2-525CAC513687" name="CUSTOMERS PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:45:52 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>44F30F3C-3749-6BA1-D12D-7922CCA8AB81</newElementsIDs>
+<usedAttributes>
+<attributeRef>44F30F3C-3749-6BA1-D12D-7922CCA8AB81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

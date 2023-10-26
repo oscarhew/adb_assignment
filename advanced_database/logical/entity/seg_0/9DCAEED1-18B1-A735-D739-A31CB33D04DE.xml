@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DCAEED1-18B1-A735-D739-A31CB33D04DE" name="PAYMENTS">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:34 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PaymentID" id="46583ADB-580A-3538-4B7B-772CC4951393">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:39 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentMethod" id="1D8EDBB4-F3B9-BFF1-FEE1-C6EE451CE4E8">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:46 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentDate" id="E38E2311-4D97-65B4-CD8A-61F0F424C5CC">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:56 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9478E7D-5EF4-AA89-5B39-2C89B028C04C" name="PAYMENTS PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:45 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>46583ADB-580A-3538-4B7B-772CC4951393</newElementsIDs>
+<usedAttributes>
+<attributeRef>46583ADB-580A-3538-4B7B-772CC4951393</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SUPPLIERS Staff FK" directorySegmentName="seg_0" id="F8351B92-24C5-FEF1-EF6E-CA21A7AB4EE2">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:22 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<sourcePk>79B3BE8B-66C9-BFED-5606-4A7DB2F93197</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>420B95A2-CCE3-D1E4-2BD2-1632EF4B5244</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>349A4690-B03D-C7BA-AA2E-2A8D063B65AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

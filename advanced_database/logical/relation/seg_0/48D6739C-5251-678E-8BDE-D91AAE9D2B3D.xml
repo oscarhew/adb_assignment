@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDERS PAYMENTS FK" directorySegmentName="seg_0" id="48D6739C-5251-678E-8BDE-D91AAE9D2B3D">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:06:59 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>D9478E7D-5EF4-AA89-5B39-2C89B028C04C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9DCAEED1-18B1-A735-D739-A31CB33D04DE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5420DF47-1AD5-4A5F-D957-8E54E7D5480D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

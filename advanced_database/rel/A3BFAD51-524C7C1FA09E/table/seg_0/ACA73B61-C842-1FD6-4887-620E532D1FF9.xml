@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACA73B61-C842-1FD6-4887-620E532D1FF9" name="PAYMENTS">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>9DCAEED1-18B1-A735-D739-A31CB33D04DE</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PaymentID" id="A373B84E-C4A3-8F80-40F4-D08EE5725088">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>46583ADB-580A-3538-4B7B-772CC4951393</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentMethod" id="08F743B4-4122-FBAB-8658-B1EE1D811106">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>1D8EDBB4-F3B9-BFF1-FEE1-C6EE451CE4E8</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentDate" id="C73EA513-E31A-E324-B5B4-5AC5A077705D">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>E38E2311-4D97-65B4-CD8A-61F0F424C5CC</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFFC76E9-6171-43E1-2A4F-F5B1C3186BAA" name="PAYMENTS_PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>D9478E7D-5EF4-AA89-5B39-2C89B028C04C</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A373B84E-C4A3-8F80-40F4-D08EE5725088"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

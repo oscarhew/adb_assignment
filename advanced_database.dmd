@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="advanced_database" id="93D0AB61-7213-18C7-71DA-1EA57FA6EFD1" version="3.5">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:37:15 UTC</createdTime>
+<ownerDesignName>Main</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>93D0AB61-7213-18C7-71DA-1EA57FA6EFD1</designId>
+</OSDM_Design>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAD80735-5881-A1B2-3BAF-9194D8887001" name="ORDERDETAILS">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>DFA80888-DFDB-32EE-6054-A21E7D0B5660</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Quantity" id="4CDB7D28-0BF4-39B5-CF8E-B7093524DE4A">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>C06CBF88-6AFD-F988-A0F2-9DEA1274230B</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTS_ProductID" id="A721D95A-C1C7-BB2C-BBF8-F0E6BACAC30E">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>21CC2BB5-A211-FFC4-5E7D-4F4B3DD60D65</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60B3C9F4-06B1-8859-E48B-4992F643CA70" referredColumn="F2E3DA7B-1A13-EED4-DDE1-AC3A25750B44"/>
+</associations>
+</Column>
+<Column name="ORDERS_OrderID" id="7DD5678F-FF1B-C6A5-8F9D-B2E0BA4FE394">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>CE5AEEF6-5225-9886-B05C-2DF7AC325E6E</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF4A5ABE-2D0E-8555-AA82-7AFA66F5A768" referredColumn="D50D3E43-6861-6D1E-6D89-65C906EF52BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="979F2312-8F8A-1378-AD21-54F9E083936A" name="ORDERDETAILS_PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>A7B04121-0ABD-67CC-11C9-5013D26E8957</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A721D95A-C1C7-BB2C-BBF8-F0E6BACAC30E"/>
+<colUsage columnID="7DD5678F-FF1B-C6A5-8F9D-B2E0BA4FE394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83A9DD16-F6C4-A299-1138-88185C4E0A3A" name="ORDERDETAILS_ORDERS_FK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>8C585A07-8376-D885-FD37-35C97427A84E</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD5678F-FF1B-C6A5-8F9D-B2E0BA4FE394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E4E3ACF-54A1-6527-B185-5E27AF8A11B8" name="ORDERDETAILS_PRODUCTS_FK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>FDB8B49B-9654-4CA2-6108-69C9084B2AB9</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A721D95A-C1C7-BB2C-BBF8-F0E6BACAC30E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

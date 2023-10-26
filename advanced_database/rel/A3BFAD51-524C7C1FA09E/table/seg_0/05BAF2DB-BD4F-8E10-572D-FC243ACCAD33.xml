@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05BAF2DB-BD4F-8E10-572D-FC243ACCAD33" name="Staff">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>420B95A2-CCE3-D1E4-2BD2-1632EF4B5244</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StaffID" id="0278D4E0-79BF-C980-2097-3497F03F537E">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>CDD7549F-2809-A726-D615-A4584410B4A7</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="4177F647-712D-0377-496C-E64FCDC07C38">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>1F2649D6-E18C-A11B-E6F6-A31DBDCDDF71</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Age" id="C652133F-A10E-145F-E054-77554B03BD5F">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>3BB02E94-8C1E-DB1D-82BD-310398541C7D</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="F2331E78-E7BB-4DB0-2FCB-7749F26DE9C9">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>539668F8-2905-58EA-94D4-AAB124CD63BD</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="14736749-0902-3EE6-50D2-92A6B0C42DFE">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>F61FD3BC-1729-D48B-D033-B7C6C88E445E</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CurrentPosition" id="84281A44-F323-4FB3-C6D0-D6BF8CAA6F9B">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>2FF89F36-DE0C-87AD-6646-AE0AB1E893A2</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BaseRate" id="B7BF343A-4E36-FF9F-445D-1B9E5A89EFDD">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>E3E6C470-076A-89F4-007D-FCD0AAE164CD</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OverTimeRate" id="4220F292-739F-3BC3-F265-3763F644F366">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>E8C58D69-7505-7330-C6E3-6234D3F14BB9</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1C6214F-F682-25C2-7906-D66274C91220" name="Staff_PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>79B3BE8B-66C9-BFED-5606-4A7DB2F93197</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0278D4E0-79BF-C980-2097-3497F03F537E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

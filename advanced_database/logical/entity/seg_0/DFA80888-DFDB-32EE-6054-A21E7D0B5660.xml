@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFA80888-DFDB-32EE-6054-A21E7D0B5660" name="ORDERDETAILS">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:46:32 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Quantity" id="C06CBF88-6AFD-F988-A0F2-9DEA1274230B">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:46:37 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCTS ProductID" id="21CC2BB5-A211-FFC4-5E7D-4F4B3DD60D65">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:48:11 UTC</createdTime>
+<generatorID>FDB8B49B-9654-4CA2-6108-69C9084B2AB9</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<referedAttribute>46D6D684-CF15-3EC9-17EC-B32047977AEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDERS OrderID" id="CE5AEEF6-5225-9886-B05C-2DF7AC325E6E">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:48:14 UTC</createdTime>
+<generatorID>8C585A07-8376-D885-FD37-35C97427A84E</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<referedAttribute>D24F008F-5E4B-33F0-56BA-DE73DADD4ABE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7B04121-0ABD-67CC-11C9-5013D26E8957" name="ORDERDETAILS PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:59:20 UTC</createdTime>
+<generatorID>CDC5326F-F271-49C1-7CDC-D7EBAF0472F1</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21CC2BB5-A211-FFC4-5E7D-4F4B3DD60D65</attributeRef>
+<attributeRef>CE5AEEF6-5225-9886-B05C-2DF7AC325E6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

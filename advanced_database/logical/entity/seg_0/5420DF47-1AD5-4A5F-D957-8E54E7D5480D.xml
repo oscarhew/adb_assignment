@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5420DF47-1AD5-4A5F-D957-8E54E7D5480D" name="ORDERS">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:43:55 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="D24F008F-5E4B-33F0-56BA-DE73DADD4ABE">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:43:58 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalPrice" id="ACA70D39-35F9-A212-607E-88A6B5F31F92">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:07 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderPlaceMethod" id="16F98DCE-7E06-3491-0760-CFA9E2F7E226">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:15 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMERS CustomerID" id="2CF81587-E299-53B8-E362-6ACB16D831CF">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:48:25 UTC</createdTime>
+<generatorID>87C60EE1-4F60-8386-7CA7-91E6E44C5581</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<referedAttribute>44F30F3C-3749-6BA1-D12D-7922CCA8AB81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYMENTS PaymentID" id="F6211698-FF00-9105-4D05-7784E0826C0F">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:06:59 UTC</createdTime>
+<generatorID>48D6739C-5251-678E-8BDE-D91AAE9D2B3D</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<referedAttribute>46583ADB-580A-3538-4B7B-772CC4951393</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DELIVERIES DeliveryID" id="7E5100AF-4AD0-C42F-3FE3-9800BFB23DEC">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:07:02 UTC</createdTime>
+<generatorID>BE47DB33-2506-AF7B-03A9-29BBA5594253</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="true"/>
+</engineerTo>
+<referedAttribute>719CCC80-3C5E-154A-B70F-263A8AE98699</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F977F3C-1F7E-462C-F025-42C4CCF67D86" name="ORDERS PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 00:44:07 UTC</createdTime>
+<ownerDesignName>advanced_database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A3BFAD51-2870-8823-EAB0-524C7C1FA09E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D24F008F-5E4B-33F0-56BA-DE73DADD4ABE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

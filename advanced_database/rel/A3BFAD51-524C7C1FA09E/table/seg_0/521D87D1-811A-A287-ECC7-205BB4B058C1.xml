@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="521D87D1-811A-A287-ECC7-205BB4B058C1" name="SUPPLIERS">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>349A4690-B03D-C7BA-AA2E-2A8D063B65AF</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SupplierID" id="ECEAE998-9146-AF5B-197E-F0AD5D766502">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>0769F3E0-882B-71FD-305A-4B615272D3CE</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="73B2AF70-09DA-7AA4-3753-E8B411553990">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>C5DEC705-39ED-7609-053D-8CA880DFC996</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contact" id="5B9D4E8D-EEB3-82E2-7876-464496DDDC04">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>6CF667E3-C3F4-8C56-FAF9-B3A57A220E54</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="0385DA1B-CEFB-4757-BC71-015601295A84">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>588C8960-B848-787B-CBEA-36500CBF48BB</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_StaffID" id="4E71F5E2-C967-8F1D-2879-13E228528764">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>B7396741-E85E-FC25-00AB-6066F52DE8D6</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAFE7AF7-E66E-FF8B-49B1-39F019B44FE8" referredColumn="0278D4E0-79BF-C980-2097-3497F03F537E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26B42109-32AE-2481-986F-947DB8CBD1A2" name="SUPPLIERS_PK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-20 01:22:18 UTC</createdTime>
+<generatorID>4B1A9328-CE0D-BBD6-6A71-21BBD19CDC80</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECEAE998-9146-AF5B-197E-F0AD5D766502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF1CA5DC-FDF6-098F-0CC7-EA0BBEF3B558" name="SUPPLIERS_Staff_FK">
+<createdBy>Oscar</createdBy>
+<createdTime>2023-10-25 04:41:28 UTC</createdTime>
+<generatorID>F8351B92-24C5-FEF1-EF6E-CA21A7AB4EE2</generatorID>
+<ownerDesignName>advanced_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E71F5E2-C967-8F1D-2879-13E228528764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
